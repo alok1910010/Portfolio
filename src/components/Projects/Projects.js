@@ -22,8 +22,8 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title=""
-              description=""
+              title="shop.com - clone"
+              description="This is a E-commerce website which sells clothes,beauty,health and nutrition, shoes, electronics etc."
               ghLink="https://github.com"
               demoLink="https://"
             />
@@ -32,8 +32,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title=""
-              description=""
+              title="IKEA.com - clone"
+              description="This is a E-commerce website which sellsfurniture, kitchen appliances, decoration,home accessories."
               ghLink="https://github.com"
               demoLink="https://"      
             />
