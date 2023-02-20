@@ -23,7 +23,7 @@ function Projects() {
               imgPath={shop}
               isBlog={false}
               title="shop.com - clone"
-              description="This is a E-commerce website which sells clothes, beauty, health and nutrition, shoes, electronics etc."
+              description="This is a E-commerce website which sells clothes, beauty, health and nutrition, shoes, electronics etc." 
               ghLink="https://github.com"
               demoLink="https://"
             />
