@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import emotion from "../../Assets/Projects/emotion.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import IKEA from "../../Assets/Projects/IKEA.png";
+import shop from "../../Assets/Projects/shop.png";
 
 
 function Projects() {
@@ -20,20 +20,20 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={shop}
               isBlog={false}
               title="shop.com - clone"
-              description="This is a E-commerce website which sells clothes,beauty,health and nutrition, shoes, electronics etc."
+              description="This is a E-commerce website which sells clothes, beauty, health and nutrition, shoes, electronics etc."
               ghLink="https://github.com"
               demoLink="https://"
             />
           </Col>
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={IKEA}
               isBlog={false}
               title="IKEA.com - clone"
-              description="This is a E-commerce website which sellsfurniture, kitchen appliances, decoration,home accessories."
+              description="This is a E-commerce website which sellsfurniture, kitchen appliances, decoration, home accessories."
               ghLink="https://github.com"
               demoLink="https://"      
             />
