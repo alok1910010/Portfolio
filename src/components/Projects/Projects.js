@@ -24,8 +24,8 @@ function Projects() {
               isBlog={false}
               title="shop.com - clone"
               description="This is a E-commerce website which sells clothes, beauty, health and nutrition, shoes, electronics etc." 
-              ghLink="https://github.com"
-              demoLink="https://"
+              ghLink="https://github.com/alok1910010/shop.com-clone"
+              demoLink="https://shop-cloneproject.netlify.app/"
             />
           </Col>
             <Col md={4} className="project-card">
